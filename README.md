@@ -1,4 +1,4 @@
-# DynamicFunctionIssue
+# Dynamic Function Issue with Locker Service
 
 We are having lots of challenges with Locker service. We found that there is something wrong with the dynamic function. When locker service is enabled it not possible to access global variables in a dynamic function.
  
