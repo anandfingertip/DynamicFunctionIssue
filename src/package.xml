@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+ <types>
+ <members>DemoComponent</members>
+ <members>Test</members>
+ <name>AuraDefinitionBundle</name>
+ </types>
+ <types>
+ <members>FT_Dependency</members>
+ <name>StaticResource</name>
+ </types>
+ <fullName>Fingertip</fullName>
+ <version>36.0</version>
+</Package>

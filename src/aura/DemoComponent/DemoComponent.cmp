@@ -1,0 +1,13 @@
+<aura:component >
+    <aura:attribute access="private" name="output" type="String"/>
+    
+    <ltng:require 
+        scripts="{!join(',',  $Resource.FT_Dependency + '/example.js')}"/>
+
+    <button onclick="{!c.execute}">Execute</button>
+     <button onclick="{!c.execute2}">Execute2</button>
+    
+    Output: <br/> 
+    {!v.output}
+   	
+</aura:component>
