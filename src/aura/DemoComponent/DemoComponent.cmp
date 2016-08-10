@@ -5,7 +5,7 @@
         scripts="{!join(',',  $Resource.FT_Dependency + '/example.js')}"/>
 
     <button onclick="{!c.execute}">Execute</button>
-     <button onclick="{!c.execute2}">Execute2</button>
+     <button onclick="{!c.execute2}">Execute as dynamic javascript</button>
     
     Output: <br/> 
     {!v.output}
